@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt - Die Kanalratten</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html">🐀 DIE KANALRATTEN</a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html" class="nav-link">START</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link">ÜBER UNS</a></li>
+                <li class="nav-item"><a href="musik.html" class="nav-link">MUSIK</a></li>
+                <li class="nav-item"><a href="termine.html" class="nav-link">TERMINE</a></li>
+                <li class="nav-item"><a href="galerie.html" class="nav-link">GALERIE</a></li>
+                <li class="nav-item"><a href="merchandise.html" class="nav-link">MERCH</a></li>
+                <li class="nav-item"><a href="kontakt.html" class="nav-link active">KONTAKT</a></li>
+                <li class="nav-item"><a href="pressekit.html" class="nav-link">PRESSE</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <h1>KONTAKT</h1>
+        <p>Schreib uns - wir antworten!</p>
+    </section>
+
+    <!-- Content -->
+    <section class="content">
+        <div class="container">
+            <h2>📧 Kontaktformular</h2>
+            
+            <!-- Contact Form -->
+            <div class="contact-form-wrapper">
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name *</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">E-Mail *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Telefon</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Betreff *</label>
+                        <select id="subject" name="subject" required>
+                            <option value="">-- Bitte wählen --</option>
+                            <option value="booking">🎸 Booking (Konzert anfragen)</option>
+                            <option value="press">📰 Presse (Interview, Artikel)</option>
+                            <option value="merchandise">🐀 Merchandise (Merch bestellen)</option>
+                            <option value="festival">🎪 Festival (Event Anfrage)</option>
+                            <option value="other">💬 Sonstiges</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Nachricht *</label>
+                        <textarea id="message" name="message" rows="8" required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">📤 Nachricht senden</button>
+                </form>
+
+                <!-- Success Message (Hidden) -->
+                <div id="successMessage" class="success-message" style="display: none;">
+                    <i class="fas fa-check-circle"></i>
+                    <h3>Danke für deine Nachricht!</h3>
+                    <p>Wir antworten dir schnellstmöglich. Viel Spaß mit den Kanalratten! 🐀</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kontakt Info -->
+    <section class="contact-info">
+        <div class="container">
+            <h2>📍 Weitere Kontaktmöglichkeiten</h2>
+            
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <h3>📧 E-Mail</h3>
+                    <p><strong>Allgemein:</strong><br>info@diekanalratten.de</p>
+                    <p><strong>Booking:</strong><br>booking@diekanalratten.de</p>
+                    <p><strong>Presse:</strong><br>presse@diekanalratten.de</p>
+                </div>
+
+                <div class="contact-card">
+                    <h3>📞 Telefon</h3>
+                    <p><strong>Booking & Events:</strong><br>+49 (0) 123 456789</p>
+                    <p style="font-size: 0.9em; color: #999; margin-top: 10px;">
+                        Montag - Freitag: 14:00 - 18:00 Uhr<br>
+                        Sa/So: Per Mail (schneller!)
+                    </p>
+                </div>
+
+                <div class="contact-card">
+                    <h3>🏠 Adresse</h3>
+                    <p>Die Kanalratten Hausboot<br>
+                    Berlin-Treptow<br>
+                    An der Spree<br>
+                    Berlin, Deutschland</p>
+                </div>
+
+                <div class="contact-card">
+                    <h3>🌐 Social Media</h3>
+                    <p>
+                        <a href="https://www.instagram.com/diekanalratten" target="_blank">
+                            <i class="fab fa-instagram"></i> Instagram
+                        </a><br>
+                        <a href="https://www.youtube.com/c/DieKanalrattenOfficial" target="_blank">
+                            <i class="fab fa-youtube"></i> YouTube
+                        </a><br>
+                        <a href="https://www.facebook.com/diekanalratten" target="_blank">
+                            <i class="fab fa-facebook"></i> Facebook
+                        </a><br>
+                        <a href="https://www.tiktok.com/@diekanalratten" target="_blank">
+                            <i class="fab fa-tiktok"></i> TikTok
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq">
+        <div class="container">
+            <h2>❓ Häufig gestellte Fragen</h2>
+            
+            <div class="faq-item">
+                <h3>🎸 Wie buche ich die Kanalratten?</h3>
+                <p>
+                    Schreib uns eine E-Mail an booking@diekanalratten.de mit Datum, Ort und Veranstaltungstyp. 
+                    Wir antworten dir innerhalb von 2 Tagen mit Details und Konditionen.
+                </p>
+            </div>
+
+            <div class="faq-item">
+                <h3>🎤 Spielt ihr auch private Events?</h3>
+                <p>
+                    Ja! Hochzeiten, Firmenfeieren, Geburtstage – wir rocken überall. Sprecht uns einfach an!
+                </p>
+            </div>
+
+            <div class="faq-item">
+                <h3>📰 Ich bin Journalist/in – wie erhalte ich Pressefotos?</h3>
+                <p>
+                    Alle Presseinfos, Fotos und Bios findet ihr auf unserer <a href="pressekit.html">Pressekit-Seite</a>. 
+                    Falls du Spezifisches brauchst, schreib uns gerne!
+                </p>
+            </div>
+
+            <div class="faq-item">
+                <h3>🍺 Können wir bei euch am Hausboot abhängen?</h3>
+                <p>
+                    Gerne! Schreib uns kurz, damit wir wissen, dass ihr kommt. Bringt Bier mit, 
+                    wir haben die Musik! 🐀
+                </p>
+            </div>
+
+            <div class="faq-item">
+                <h3>🎵 Woher kommt euer Name?</h3>
+                <p>
+                    Die Kanalratten sind die cleveren, versteckten Bewohner der Berliner Kanäle. 
+                    Sie sind überall, unterschätzt und unverschämt lustig – genau wie wir! 🐀
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>DIE KANALRATTEN</h4>
+                    <p>Berlin Folk Metal & Kneipen Punk<br>Brücke. Bier. Beton. Beats.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Folgt uns</h4>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/diekanalratten" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/c/DieKanalrattenOfficial" target="_blank"><i class="fab fa-youtube"></i></a>
+                        <a href="https://www.facebook.com/diekanalratten" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.tiktok.com/@diekanalratten" target="_blank"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Links</h4>
+                    <ul>
+                        <li><a href="kontakt.html">Kontakt</a></li>
+                        <li><a href="pressekit.html">Pressekit</a></li>
+                        <li><a href="impressum.html">Impressum</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Die Kanalratten. Alle Rechte vorbehalten. 🐀</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script>
+        // Simple form handling
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const subject = document.getElementById('subject').value;
+            const message = document.getElementById('message').value;
+            
+            // Construct mailto link
+            const mailtoLink = `mailto:info@diekanalratten.de?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(`Name: ${name}\nE-Mail: ${email}\n\n${message}`)}`;
+            
+            // Open default mail client
+            window.location.href = mailtoLink;
+            
+            // Show success message
+            setTimeout(() => {
+                document.getElementById('contactForm').style.display = 'none';
+                document.getElementById('successMessage').style.display = 'block';
+            }, 100);
+        });
+    </script>
+</body>
+</html>
