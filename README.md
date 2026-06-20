@@ -2,7 +2,7 @@
 
 Offizielle Website der Berlin Folk Metal & Kneipen Punk Band **Die Kanalratten**
 
-**Website:** [https://diekanalratten.github.io ](https://arotan666.github.io/kanalratten.github.io/index.html) 
+**Website:** "[https://diekanalratten.github.io ](https://arotan666.github.io/kanalratten.github.io/index.html)"
 **Motto:** "Immer einer mehr, als du siehst."  
 **Slogan:** "Brücke. Bier. Beton. Beats."
 
