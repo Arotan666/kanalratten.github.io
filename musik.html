@@ -6,6 +6,43 @@
     <title>Musik - Die Kanalratten</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .album-card {
+            display: flex;
+            gap: 20px;
+            align-items: flex-start;
+            margin-bottom: 30px;
+        }
+        
+        .album-cover {
+            flex-shrink: 0;
+            width: 200px;
+            height: 200px;
+        }
+        
+        .album-cover img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+        
+        .album-content {
+            flex: 1;
+        }
+        
+        @media (max-width: 768px) {
+            .album-card {
+                flex-direction: column;
+            }
+            
+            .album-cover {
+                width: 100%;
+                height: auto;
+                max-width: 300px;
+            }
+        }
+    </style>
 </head>
 <body>
     <!-- Navigation -->
@@ -71,7 +108,7 @@
     <section class="spotify-embed">
         <div class="container">
             <h2>Jetzt abspielen</h2>
-            <iframe style="border-radius:12px" src="https://suno.com/playlist/e726c5ec-9b7b-4174-b790-5e48fea3d243" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+            <iframe style="border-radius:12px" src="https://suno.com/playlist/e726c5ec-9b7b-4174-b790-5e48fea3d243" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipbo[...]
         </div>
     </section>
 
@@ -84,14 +121,16 @@
                     <div class="album-cover">
                         <img src="images/ppm.png" alt="Album">
                     </div>
-                    <h3>Polka. Punk. Metall!</h3>
-                    <p class="year">2019</p>
-                    <p class="description">
-                        Die erste Veröffentlichung der Kanalratten. Aufgenommen mit wenig Geld, viel Klebeband und noch mehr Enthusiasmus. Die EP verbindet Straßenpunk, Folk-Melodien und erste Ausfl[...]
-                        Bereits hier tauchen die Themen auf, die die Band bis heute prägen: Wasser, Freiheit, Freundschaft und Berliner Untergrundgeschichten.
-                    </p>
-                    <div class="album-links">
-                        <a href="https://www.youtube.com" target="_blank" class="link-btn small">YouTube</a>
+                    <div class="album-content">
+                        <h3>Polka. Punk. Metall!</h3>
+                        <p class="year">2019</p>
+                        <p class="description">
+                            Die erste Veröffentlichung der Kanalratten. Aufgenommen mit wenig Geld, viel Klebeband und noch mehr Enthusiasmus. Die EP verbindet Straßenpunk, Folk-Melodien und erste Ausfl[...]
+                            Bereits hier tauchen die Themen auf, die die Band bis heute prägen: Wasser, Freiheit, Freundschaft und Berliner Untergrundgeschichten.
+                        </p>
+                        <div class="album-links">
+                            <a href="https://www.youtube.com" target="_blank" class="link-btn small">YouTube</a>
+                        </div>
                     </div>
                 </div>
 
@@ -99,14 +138,16 @@
                     <div class="album-cover">
                         <img src="images/FeuchteOrte.jpg" alt="Album">
                     </div>
-                    <h3>Stadtplan Der Feuchten Orte</h3>
-                    <p class="year">2024</p>
-                    <p class="description">
-                        Das Debütalbum gilt als das zentrale Werk der Kanalratten. Zwischen Spree, Havel, Teltowkanal und Berliner Legenden entstand ein Konzeptalbum über die verborgenen Wasserwege [...]
-                        Die Songs erzählen von Riesen, Schlangengöttern, Karpfen, Brücken und Gestalten aus dem Schatten der Hauptstadt. Die erste Vinylauflage war kurz nach Veröffentlichung ausve[...]
-                    </p>
-                    <div class="album-links">
-                        <a href="https://www.youtube.com" target="_blank" class="link-btn small">YouTube</a>
+                    <div class="album-content">
+                        <h3>Stadtplan Der Feuchten Orte</h3>
+                        <p class="year">2024</p>
+                        <p class="description">
+                            Das Debütalbum gilt als das zentrale Werk der Kanalratten. Zwischen Spree, Havel, Teltowkanal und Berliner Legenden entstand ein Konzeptalbum über die verborgenen Wasserwege [...]
+                            Die Songs erzählen von Riesen, Schlangengöttern, Karpfen, Brücken und Gestalten aus dem Schatten der Hauptstadt. Die erste Vinylauflage war kurz nach Veröffentlichung ausve[...]
+                        </p>
+                        <div class="album-links">
+                            <a href="https://www.youtube.com" target="_blank" class="link-btn small">YouTube</a>
+                        </div>
                     </div>
                 </div>
 
@@ -114,15 +155,17 @@
                     <div class="album-cover">
                         <img src="images/ppm2.png" alt="Album">
                     </div>
-                    <h3>Polka. Punk. Metall! Re-Release</h3>
-                    <p class="year">2026</p>
-                    <p class="description">
-                        Neu gemasterte Wiederveröffentlichung der lange vergriffenen Debüt-EP. 
-                        Neben restauriertem Klang enthält die digitale Ausgabe bislang unveröffentlichte Demoaufnahmen, alternative Mixe und ausführliche Liner Notes zur Frühgeschichte der Band. 
-                        Ein Blick zurück auf die ersten Schritte der Kanalratten.
-                    </p>
-                    <div class="album-links">
-                        <a href="https://www.youtube.com" target="_blank" class="link-btn small">YouTube</a>
+                    <div class="album-content">
+                        <h3>Polka. Punk. Metall! Re-Release</h3>
+                        <p class="year">2026</p>
+                        <p class="description">
+                            Neu gemasterte Wiederveröffentlichung der lange vergriffenen Debüt-EP. 
+                            Neben restauriertem Klang enthält die digitale Ausgabe bislang unveröffentlichte Demoaufnahmen, alternative Mixe und ausführliche Liner Notes zur Frühgeschichte der Band. 
+                            Ein Blick zurück auf die ersten Schritte der Kanalratten.
+                        </p>
+                        <div class="album-links">
+                            <a href="https://www.youtube.com" target="_blank" class="link-btn small">YouTube</a>
+                        </div>
                     </div>
                 </div>
                 
@@ -130,14 +173,16 @@
                     <div class="album-cover">
                         <img src="images/Jazz3.jpeg" alt="Jazz3">
                     </div>
-                    <h3>Jazz, Jauln, Jroßstadt</h3>
-                    <p class="year">2026</p>
-                    <p class="description">
-                        Die Ratten covern mit und unter der Leitung des mr Reinecke Jazz Orchestra bedeutende Klassiker von Vincent Marlowe und wagen sich in ein völlig neues Genre der Musik. 
-                        Daraus entstand ein Doppelalbum. Reinicke feat. Ratten/Ratten feat. Reinicke
-                    </p>
-                    <div class="album-links">
-                        <a href="https://suno.com/playlist/e726c5ec-9b7b-4174-b790-5e48fea3d243" target="_blank" class="link-btn small">Suno</a>
+                    <div class="album-content">
+                        <h3>Jazz, Jauln, Jroßstadt</h3>
+                        <p class="year">2026</p>
+                        <p class="description">
+                            Die Ratten covern mit und unter der Leitung des mr Reinecke Jazz Orchestra bedeutende Klassiker von Vincent Marlowe und wagen sich in ein völlig neues Genre der Musik. 
+                            Daraus entstand ein Doppelalbum. Reinicke feat. Ratten/Ratten feat. Reinicke
+                        </p>
+                        <div class="album-links">
+                            <a href="https://suno.com/playlist/e726c5ec-9b7b-4174-b790-5e48fea3d243" target="_blank" class="link-btn small">Suno</a>
+                        </div>
                     </div>
                 </div>
             </div>
